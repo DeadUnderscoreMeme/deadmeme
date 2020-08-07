@@ -1,0 +1,53 @@
+@import url(./fonts.css);
+@import url(./variables.css);
+
+/* Start Navigation */
+
+.navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.navbar {
+    padding: 1rem 20rem;
+}
+
+.navbar-brand {
+    font-family: var(--rubik);
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    font-family: "Rubik", cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--secondary-color);
+}
+
+.dropdown-item {
+    font-family: "Karla", cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.navbar-nav .active a {
+    background: var(--tertiary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-nav a:hover {
+    background: var(--tertiary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* End Navigation */
